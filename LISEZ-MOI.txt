@@ -1,0 +1,21 @@
+SITE TSA - DE LA SALLE
+========================
+Ouvrir index.html dans un navigateur.
+
+Le dossier des images s'appelle exactement : images
+
+Images utilisées :
+- images/TSA.png : fond de l'accueil
+- images/soccer.png
+- images/basket.png
+- images/course.png
+- images/clavier.png
+- images/site.png
+- images/scratch.png
+
+Les pages HTML utilisent les 6 images d'activités.
+Le CSS utilise images/TSA.png comme image de fond de la page d'accueil.
+Le JavaScript ne contient aucun chemin d'image : il gère les filtres et l'agrandissement de la galerie.
+
+Nouvelle page : mathematiques.html
+Activités : formes géométriques, calculs arithmétiques, lecture de l'heure et positions sur un plan.

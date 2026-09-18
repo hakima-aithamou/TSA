@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Galerie - TSA De La Salle</title><link rel="stylesheet" href="style.css"></head><body>
+<nav>
+  <a href="index.html" class="ecole"><div class="logo">TSA</div><div><strong>DE LA SALLE</strong><small>OTTAWA</small></div></a>
+  <div class="menu">
+    <a href="index.html">Accueil</a>
+    <a href="sports.html">Sports</a>
+    <a href="informatique.html">Informatique</a>
+    <a href="mathematiques.html">Mathématiques</a>
+    <a href="galerie.html">Galerie</a>
+  </div>
+</nav>
+
+<section class="entete-page"><span>NOS ACTIVITÉS EN IMAGES</span><h1>📸 Nos beaux moments</h1><p>Quelques souvenirs de nos activités et projets.</p></section>
+<div class="filtres"><button class="selectionne" onclick="filtrer('toutes',this)">Toutes</button><button onclick="filtrer('sport',this)">🏆 Sports</button><button onclick="filtrer('info',this)">💻 Informatique</button></div>
+<section class="galerie"><div class="image-galerie sport"><img src="images/soccer.png" onclick="agrandir(this)" alt="⚽ Soccer"><span>⚽ Soccer</span></div><div class="image-galerie sport"><img src="images/basket.png" onclick="agrandir(this)" alt="🏀 Basketball"><span>🏀 Basketball</span></div><div class="image-galerie sport"><img src="images/course.png" onclick="agrandir(this)" alt="🏃 Course"><span>🏃 Course</span></div><div class="image-galerie info"><img src="images/clavier.png" onclick="agrandir(this)" alt="⌨️ Défi clavier"><span>⌨️ Défi clavier</span></div><div class="image-galerie info"><img src="images/site.png" onclick="agrandir(this)" alt="🌐 Google Sites"><span>🌐 Google Sites</span></div><div class="image-galerie info"><img src="images/scratch.png" onclick="agrandir(this)" alt="🐱 Scratch"><span>🐱 Scratch</span></div></section>
+<div id="modal" class="modal" onclick="fermerModal(event)"><button onclick="fermer()">×</button><img id="grandeImage" alt="Photo agrandie"></div>
+<footer><strong>TSA • De La Salle</strong><span>Apprendre • Bouger • Créer • Réussir</span></footer><script src="script.js"></script></body></html>
